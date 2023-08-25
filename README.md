@@ -11,7 +11,7 @@ git clone https://github.com/your-username/project-name.git
 ```
 
 ### Fron-end Setup (Vite React):
-Navigate to the **'front-end'** directory of the cloned repository:
+Navigate to the **`front-end`** directory of the cloned repository:
 ``` bash
 cd project-name/front-end
 ```
@@ -20,7 +20,7 @@ Install the required Node.js package:
 npm install
 ```
 ### Back-end Setup (ASP.NET 7.0 Core)
-Navigate to the **'back-end'** directory of the cloned repository:
+Navigate to the **`back-end`** directory of the cloned repository:
 ```bash
 cd ../back-end
 ```
@@ -30,12 +30,12 @@ dotnet restore
 ```
 
 ## Run the Application
-**Front-end:** in the **'front-end'** directory, start the development server:
+**Front-end:** in the **`front-end`** directory, start the development server:
 ```bash
 npm run dev
 ```
 
-**Back-end:** in the **'back-end'** directory, start ASP.NET Core application:
+**Back-end:** in the **`back-end`** directory, start ASP.NET Core application:
 ```bash
 dotnet run --launch-profile https --environment Development
 ```
