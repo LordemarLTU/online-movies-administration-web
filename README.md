@@ -37,7 +37,7 @@ npm run dev
 
 **Back-end:** in the **'back-end'** directory, start ASP.NET Core application:
 ```bash
-dotnet run
+dotnet run --launch-profile https --environment Development
 ```
 
 ## Access the Application
