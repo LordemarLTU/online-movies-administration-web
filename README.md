@@ -13,7 +13,7 @@ git clone https://github.com/your-username/project-name.git
 ### Fron-end Setup (Vite React):
 Navigate to the **`front-end`** directory of the cloned repository:
 ``` bash
-cd project-name/front-end
+cd online-movies-administration-web/front-end
 ```
 Install the required Node.js package:
 ```bash
