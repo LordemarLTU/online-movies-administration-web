@@ -28,6 +28,13 @@ Restore the ASP.NET Core dependencies:
 ```bash
 dotnet restore
 ```
+### Configure the Connection String
+In your ASP.NET project, open the **`appsettings.json`** file. Add a connection string for your MySQL database like this:
+```bash
+"ConnectionStrings": {
+    "DBConnection": "Server=localhost;Port=3306;Database=YourDatabaseName;User=root;Password=YourPassword;"
+  },
+```
 
 ## Run the Application
 **Front-end:** in the **`front-end`** directory, start the development server:
